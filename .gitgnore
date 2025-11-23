@@ -1,0 +1,72 @@
+########################################
+# SISTEMA OPERACIONAL (Windows/Mac)
+########################################
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.DS_Store?
+Icon?
+*.swp
+*.lock
+
+########################################
+# VISUAL STUDIO CODE
+########################################
+.vscode/
+.history/
+*.code-workspace
+
+########################################
+# NODE / JAVASCRIPT / FRONT-END
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+coverage/
+.next/
+.nuxt/
+out/
+storybook-static/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+########################################
+# ARQUIVOS DE COMPILAÇÃO / TEMPORÁRIOS
+########################################
+*.log
+*.tmp
+*.cache
+*.bak
+*.temp
+
+########################################
+# FRONT-END (HTML, CSS, JS)
+########################################
+# Geralmente HTML, CSS e JS não precisam ser ignorados.
+# Mas vamos ignorar arquivos de preview e compilação:
+*.map
+*.min.css
+*.min.js
+
+########################################
+# ARQUIVOS ZIP, BACKUP, EXPORTAÇÃO
+########################################
+*.zip
+*.rar
+*.tar
+*.7z
+
+########################################
+# CONFIGURAÇÕES PERSONALIZADAS
+########################################
+# Ignorar pasta de imagens exportadas automaticamente
+export/
+uploads/
