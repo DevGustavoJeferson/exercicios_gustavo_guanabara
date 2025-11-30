@@ -2,7 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DevGustavoJeferson/caderno_ingles)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DevGustavoJeferson/caderno_ingles)
 
-# 📚 Exercícios - Gustavo Guanabara
+# 📚 Cursos - Gustavo Guanabara
 
 > Este repositório é baseado em minhas anotações de maneira organizada e profissional.
 > Meu objetivo é usar este repositório como fonte de estudo e revisão contínua, registrar meu progresso, aprimorar meu uso do GitHub e meus conhecimentos na área de tecnologia.
