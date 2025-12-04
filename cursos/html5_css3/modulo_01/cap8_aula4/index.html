@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Capítulo 8 - Aula 4</title>
+</head>
+<body>
+    <h2>🧬💻 Código para HTML</h2>
+    <p>
+        Caso eu queira mostrar um <em>código-fonte</em>, devo utilizar a tag &lt;code&gt;:
+    <br>
+        <strong>Exemplo em C:</strong>
+    <br>
+    <code>
+        #include <stdio.h>
+        int main(){
+            int x = 10,y = 5;
+            int z = x + y;
+            printf("Valor total = %d",z);
+        }
+    </code>
+    <br>
+        Percebe-se que não tem formatação (até por que é dessa forma que um PC entende o código-fonte)
+    <br>
+        Para alterar a formatação, utilizamos a tag &lt;pre&gt;, juntamente com a tag &lt;code&gt;, agora o código fica assim ⬇️
+    <pre><code>    
+    #include <stdio.h>
+    int main(){
+    int x = 10,y = 5;
+    int z = x + y;
+    printf("Valor total = %d",z);
+        }</code></pre>
+    </p>
+    <h3>🤝 PODEMOS UNIR DUAS TAGS, UNINDO ASSIM SUAS FUNCIONALIDADES</h3>
+    <h2>&#x1F449 Citações</h2>
+    <p>
+        Para utilizar citações em parágrafos, apenas com as aspas simples, utilizamos a tag &lt;q&gt;, por exemplo:
+        <br>
+        <em><q>Write once, run anywhere</q> - Java</em>
+        <br>
+        Para um bloco inteiro utilizamos a tag &lt;blockquote&gt;, e podemos adicionar link para a citação
+        <br>
+        <pre><blockquote cite="https://www.reddit.com/r/brasil/comments/slhqur/qual_a_opini%C3%A3o_de_vcs_sobre_o_curso_em_video/">
+Qual a opinião de vcs sobre o Curso em Video? - pergunta no Reddit
+Eu gosto. Foi por meio dele que tive meu primeiro contato com Python e depois com Java. É tudo muito bem explicadinho, do jeito que eu gosto.
+Única coisa que acho um pouco zoada, mas não interfere no conteúdo, é aquela temática mais infantil de joguinho e pá, mas isso aí é o de menos. - resposta
+        </blockquote>
+        </pre>
+    </p>
+    <h2>🔠 Abreviação</h2>
+    <p>
+        Caso quisermos colocar uma sigla e deixar exposto, o significado dela, utilizaremos a tag &lt;abbr&gt;
+        <br>
+        ➡️ Eu estudo <strong><abbr title="Cascading Style Sheets">CSS</abbr></strong>
+    </p>
+    <h2>🔁 EXTRA</h2>
+    <p>
+        &lt;bdo&gt; + parâmetro dir="rlt"
+        <br>
+        <bdo dir="rtl">TEXTO INVERTIDO</bdo>
+    </p>
+</body>
+</html>
