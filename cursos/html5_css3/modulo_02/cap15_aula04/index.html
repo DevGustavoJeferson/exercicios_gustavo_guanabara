@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 15 - Aula 04</title>
+    <style>
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black
+        }
+
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        a:active {
+            background-color: blueviolet;
+        }
+
+        .after::after {
+            content: ' ⬅️';
+        }
+
+        .before::before {
+            content: '🔝 ';
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-elementos</h1>
+    <ol>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Curso em video</a></li>
+        <li><a href="https://github.com/gustavoguanabara">Github</a></li>
+    </ol>
+    <h2>Mais funções de pseudoclasses</h2>
+    <ul>
+        <li>visited - depois de visitar o link, alterar a tag/classe</li>
+        <li>active - ao clicar e segurar com o mouse</li>
+    </ul>
+    <p>Os Pseudo-elementos são compostos basicamente de "::", alguns deles são:</p>
+        <ul>
+            <li class="after">after - coloca conteudo depois</li>
+            <li class="before">before - coloca conteudo antes</li>
+        </ul>
+</body>
+</html>
