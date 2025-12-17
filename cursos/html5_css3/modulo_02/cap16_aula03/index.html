@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 16 - Aula 3</title>
+    <style>
+        h1 {
+            margin-top: 30px;
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+        p#exemplo {
+            width: 400px;
+            background-color: brown;
+            color: aliceblue;
+            margin: auto;
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: black;
+        }
+        p#borda {
+            border: 1cap  solid  black;
+        }
+        p#margin {
+            margin: 20px 20px 20px 20px;
+        }
+        p#margin_unit {
+            margin: 20px;
+        }
+        p#margin_square {
+            background-color: brown;
+            width: 300px;
+            margin: 20px auto;
+        }
+        p#display {
+            display: inline;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modelos de caixa</h1>
+    <h2>margin</h2>
+    <p>É uma propriedade que fica fora da borda, seu foco é mais a posição da caixa</p>
+    <p>Alteramos na mesma direção que o padding, cima, direita, baixo e esquerda</p>
+    <p id="exemplo">Para colocar a caixa no meio, utilizamos a propriedade margin: auto, assim como nessa caixa</p>
+    <h2>outline</h2>
+    <p>Pouco utilizado, porém depende da margin, pois ela contorna o espaço interno da margem</p>
+    <h2>Simplificacao</h2>
+    <p>Shorthand - propriedades de multiplos valores</p>
+    <p id="borda">border - tamanho , estilo , cor</p>
+    <p id="margin">margin - top , left , bottom , right</p>
+    <p id="margin_unit">margin - tamanho unico que rege os quatro cantos dos quadrados</p>
+    <p id="margin_square">margin - tamanho de cima/baixo tamanho de direita/esquerda</p>
+    <h2>Display</h2>
+    <p id="display">Para modificar as caracteristicas de caixa de uma tag, basta usarmos o atributo display no css</p>
+    <p>display:inline-block -> É um inline com caracteristicas de block</p>
+</body>
+</html>
