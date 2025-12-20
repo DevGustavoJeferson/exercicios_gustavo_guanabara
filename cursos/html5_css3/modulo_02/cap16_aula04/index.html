@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 16 - Aula 4</title>
+</head>
+<body>
+    <header>
+        <nav><a href="#">link de navegação do site</a></nav>
+    </header>
+    <main>
+        <section>
+            <h1>Agrupamento de caixas</h1>
+            <p>Antigamente eram as div e span, sem semantica</p>
+            <p>Porem atualmente existem grouping tag, melhorando a semantica e conteudo de busca do site</p>
+            <p>Ao invés de criar um monte de div e classes nelas, hoje temos tags especificar certas partes do site</p>
+            <aside>
+            <ul>
+                <li>body -> todo o conteudo do site</li>
+                <ul>
+                    <li>header -> cabeçalho do site, onde normalmente ficam os links</li>
+                        <ul>
+                            <li>nav -> onde fica a navegação do site</li>
+                        </ul>
+                    <li>main -> onde fica todo o corpo do site, seu conteúdo</li>
+                        <ul>
+                            <li>section -> sessão sobre algum assunto</li>
+                            <li>articles -> artigo sobre algum assunto</li>
+                            <li>aside -> perifericos da sessao/article</li>
+                        </ul>
+                    <li>footer -> onde fica o rodapé do site</li>
+                </ul>
+            </ul>
+            </aside>
+        </section>
+        <article>
+            <h2>section x article</h2>
+            <p>É possível ter uma sessão dentro de uma artigo, da mesma forma que um artigo dentro de uma sessão, importando apenas a preferencia do desenvolvedor</p>
+        </article>
+        <article>
+            <h2>Por que organização de forma semantica?</h2>
+            <p>O motivo é bem simples, ESCALABILIDADE e OTIMIZAÇÃO nos mecanismo de busca</p>
+        </article>
+    </main>
+    <footer>
+        <p>desenvolvido por DevGustavoJeferson</p>
+    </footer>
+</body>
+</html>
