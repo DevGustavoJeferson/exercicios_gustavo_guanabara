@@ -67,8 +67,7 @@ div#formulario > p {
     font-size: 0.9em;
 }
 
-form > input[type=submit] {
-    display: block;
+#formulario > form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
@@ -78,18 +77,18 @@ form > input[type=submit] {
     cursor: pointer;
 }
 
-form > input[type=submit]:hover {
+#formulario > form > input[type=submit]:hover {
     border: 2px solid black;
     color: white;
     text-decoration: underline;
 }
 
-form > a {
+#formulario > form > a {
     text-decoration: none;
     color: black;
 }
 
-form > a:hover {
+#formulario > form > a:hover {
     text-decoration: underline;
     color: #ee7904;
 }
