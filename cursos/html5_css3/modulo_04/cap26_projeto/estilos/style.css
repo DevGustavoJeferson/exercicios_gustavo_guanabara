@@ -24,6 +24,10 @@ main {
     height: 100vh;
 }
 
+h1 {
+    color: #ee7904;
+}
+
 section#login {
     position: absolute;
     top: 50%;
@@ -52,4 +56,40 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > p,h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div#formulario > p {
+    font-size: 0.9em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor1);
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    border: 2px solid black;
+    color: white;
+    text-decoration: underline;
+}
+
+form > a {
+    text-decoration: none;
+    color: black;
+}
+
+form > a:hover {
+    text-decoration: underline;
+    color: #ee7904;
 }

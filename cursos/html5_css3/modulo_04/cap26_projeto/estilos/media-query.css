@@ -25,7 +25,7 @@
     body {
         background-image: linear-gradient(to top, var(--cor1), rgb(235, 185, 91));
     }
-    
+
     section#login {
         width: 900px;
     }
