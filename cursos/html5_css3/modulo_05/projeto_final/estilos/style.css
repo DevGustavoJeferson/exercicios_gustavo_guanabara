@@ -1,7 +1,5 @@
-/* 
-  Variáveis para cores:
+@charset "UTF-8";
 
-*/
 * {
   margin: 0px;
   padding: 0px;
@@ -111,7 +109,7 @@ section#detalhes {
   grid-column: 2;
 }
 
-section {
+section , article {
   background-color: var(--fundo-card);
   padding: 20px;
   margin-bottom: 20px;
@@ -137,4 +135,45 @@ article > h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+}
+
+.skill_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nome {
+  color: var(--texto);
+  font-weight: bold;
+}
+
+.porcent {
+  color: var(--destaque);
+  font-weight: bold;
+}
+
+.barra {
+  width: 100%;
+  height: 8px;
+  background-color: var(--fundo-principal);
+  border-radius: 4px;
+}
+
+.progresso {
+  height: 8px;
+  background-color: var(--destaque-inverso);
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill_container{
+    grid-template-columns: 1fr 1fr;
+  }
 }
